@@ -116,4 +116,16 @@ h1, h2, h3 {
     }
 }
 
+/* About the Club */
+
+#about-center {
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 30px;
+}
+
+#about-center h2 {
+    padding-bottom: 30px;
+}
 
