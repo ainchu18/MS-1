@@ -24,4 +24,29 @@ h1, h2, h3 {
     float: center;
     size: 280%;
     margin-top: 30px;
+    color: rgb(0, 217, 255)
+}
+
+
+/* nav links */
+
+#barbarian {
+    font-size: 110%;
+    margin: 20px 30px 20px;
+}
+
+#barbarian li {
+    list-style-type: none;
+}
+
+#barbarian a {
+    text-decoration: none;
+}
+
+#barbarian a:hover {
+    border-bottom: 1px solid rgb(0, 217, 255);
+}
+
+.active {
+    border-bottom: 1px solid rgb(0, 217, 255);
 }
