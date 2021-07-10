@@ -5,14 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Esports Community/Club in Ireland">
-    <meta="keywords" content="esports, gaming, gamers, ireland, gamers club">
+    <meta name="keywords" content="esports, gaming, gamers, ireland, gamers club">
     <meta name="author" content="CCJK">
-    
+    <title>Gamers for Life</title>
+
     <!--stylesheet-->
 
     <link href="assets/css/index.css" rel="stylesheet" type="text/css">
-
-    <title>Gamers for Life</title>
 </head>
 <body>
     <header>
@@ -46,6 +45,7 @@
     
     <section id="form">
         <form action="https://formdump.codeinstitute.net" method="POST">
+            <fieldset>
             <legend>About yourself</legend>
                 <div class="info">
                     <label for="name">Name</label>
@@ -56,14 +56,16 @@
                     <input id="email" type="email" name="email" placeholder="Your email" required>
                 </div>
                     <label for="age" class="info">Age</label>
-                        <select id="age" name="age" required>
-                            <option value="under-20">Under 20</option>
+                        <select id="age" name="age">
+                            <option value="Under 20">Under 20</option>
                             <option value="20s">20-29</option>
                             <option value="30s">30-39</option>
                             <option value="40s">40-49</option>
                             <option value="50s">50-59</option>
                             <option value="60+">60+</option>
                         </select>
+            </fieldset>
+            <fieldset>
             <legend>Gaming habbits and preference</legend>
                 <p>How often do you play?</p>
                     <input id="once-radio" name="playing-frequency" value="once-a-week" type="radio" required>
@@ -102,8 +104,9 @@
                         <input type="checkbox" id="neither-checkbox" name="neither">
                         <label for="neither-checkbox">Neither</label>
                     </div>
-            <input type="submit" id="join-now" value="Join Now">
-            <input type="reset" id="join-now" value="Clear Form">
+            </fieldset>
+            <input type="submit" class="join-now" value="Join Now">
+            <input type="reset" class="join-now" value="Clear Form">
         </form>
     </section>
     

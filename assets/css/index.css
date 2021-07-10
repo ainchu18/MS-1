@@ -22,7 +22,6 @@ h1, h2, h3 {
 }
 
 #club {
-    float: center;
     font-size: 280%;
     margin-top: 30px;
     color: rgb(0, 217, 255);
@@ -240,7 +239,7 @@ fieldset p {
     font-size: 110%;
 }
 
-#join-now {
+.join-now {
     margin-top: 20px;
     border-radius: 2px;
     text-align: center;
@@ -249,7 +248,7 @@ fieldset p {
     padding: 15px 15px;
 }
 
-#join-now:hover {
+.join-now:hover {
     background-color: rgb(0, 217, 255);
 }
 
@@ -261,17 +260,17 @@ fieldset p {
     #barbarian {
         margin: 0 auto;
         text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .networks {
         margin: 0 auto;
         padding-left: 30px;
     }
-}
-
-@media screen and (max-width: 1300px){
-    #form, #join-now {
+    #form, .join-now {
         margin: 0 auto;
         text-align: center;
     }
 }
+
 
