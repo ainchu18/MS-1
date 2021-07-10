@@ -261,16 +261,18 @@ fieldset p {
         margin: 0 auto;
         text-align: center;
         padding-top: 30px;
-        padding-bottom: 30px;
     }
     .networks {
         margin: 0 auto;
         padding-left: 30px;
+        padding-top: 30px;
     }
     #form, .join-now {
         margin: 0 auto;
         text-align: center;
     }
 }
+
+
 
 
