@@ -33,7 +33,7 @@ h1, h2, h3 {
 
 #barbarian {
     font-size: 110%;
-    margin: 20px 650px 20px;
+    margin: 30px 650px 30px;
 }
 
 #barbarian li {
@@ -140,4 +140,23 @@ h1, h2, h3 {
 
 #qoute div h2 {
     font-style: italic;
+}
+
+/* footer styles */
+
+.networks {
+    font-size: 110%;
+    margin: 30px 710px 30px;
+    height: 30px;
+}
+
+.networks li {
+    list-style-type: none;
+    display: inline;
+    list-style-position: unset;
+    padding-left: 8px;
+}
+
+.networks a {
+    text-decoration: none;
 }
