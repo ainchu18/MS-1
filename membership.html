@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,7 @@
     <meta name="author" content="CCJK">
     
     <!--stylesheet-->
+
     <link href="assets/css/index.css" rel="stylesheet" type="text/css">
 
     <title>Gamers for Life</title>
@@ -39,78 +40,73 @@
         <div id="coc-image"></div>
     </section> 
 
+    <hr>
+
     <!-- section 2 -->
     
-    <section>
-    <form action="https://formdump.codeinstitute.net" method="POST">
-        <fieldset>
+    <section class="form">
+        <form action="https://formdump.codeinstitute.net" method="POST">
             <legend>About yourself</legend>
-            <div class="float-left">
-                <label for="name" class="block-label">Name</label>
-                <input id="name" type="text" name="full_name" placeholder="Your name" required>
-            </div>
-            <div class="float-left">
-                <label for="email" class="block-label">Email</label>
-                <input id="email" type="email" name="email" placeholder="Your email" required>
-            </div>
-            <label for="age" class="block-label">Age</label>
-            <select id="age" name="age" required>
-                <option value="under-20">Under 20</option>
-                <option value="20s">20-29</option>
-                <option value="30s">30-39</option>
-                <option value="40s">40-49</option>
-                <option value="50s">50-59</option>
-                <option value="60+">60+</option>
-            </select>
-        </fieldset>
-            <fieldset>
-                <legend>Gaming habbits and preference</legend>
+                <div class="info">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" name="full_name" placeholder="Your name" required>
+                </div>
+                <div class="info">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" name="email" placeholder="Your email" required>
+                </div>
+                    <label for="age" class="info">Age</label>
+                        <select id="age" name="age" required>
+                            <option value="under-20">Under 20</option>
+                            <option value="20s">20-29</option>
+                            <option value="30s">30-39</option>
+                            <option value="40s">40-49</option>
+                            <option value="50s">50-59</option>
+                            <option value="60+">60+</option>
+                        </select>
+            <legend>Gaming habbits and preference</legend>
                 <p>How often do you play?</p>
+                    <input id="once-radio" name="playing-frequency" value="once-a-week" type="radio" required>
+                    <label for="once-radio">Once a week</label>
     
-                <input id="once-radio" name="playing-frequency" value="once-a-week" type="radio" required>
-                <label for="once-radio">Once a week</label>
+                    <input id="twice-radio" name="playing-frequency" value="twice-a-week" type="radio" required>
+                    <label for="twice-radio">Twice a week</label>
     
-                <input id="twice-radio" name="playing-frequency" value="twice-a-week" type="radio" required>
-                <label for="twice-radio">Twice a week</label>
+                    <input id="thrice-radio" name="playing-frequency" value="thrice-a-week" type="radio" required>
+                    <label for="thrice-radio">Thrice a week</label>
     
-                <input id="thrice-radio" name="playing-frequency" value="thrice-a-week" type="radio" required>
-                <label for="thrice-radio">Thrice a week</label>
-    
-                <input id="when-free-radio" name="playing-frequency" value="when-im-free" type="radio" required>
-                <label for="when-free-radio">When I'm free</label>
-    
+                    <input id="when-free-radio" name="playing-frequency" value="when-im-free" type="radio" required>
+                    <label for="when-free-radio">When I'm free</label>
                 <p>How many hours do you play per day?</p>
+                    <input id="0-3-hours" name="playing-length" value="0-3-hours" type="radio" required>
+                    <label for="0-3-hours">0 to 3 hours</label>
     
-                <input id="0-3-hours" name="playing-length" value="0-3-hours" type="radio" required>
-                <label for="0-3-hours">0 to 3 hours</label>
+                    <input id="4-6-hours" name="playing-length" value="4-6-hours" type="radio" required>
+                    <label for="4-6-hours">4 to 6 hours</label>
     
-                <input id="4-6-hours" name="playing-length" value="4-6-hours" type="radio" required>
-                <label for="4-6-hours">4 to 6 hours</label>
+                    <input id="7-9-hours" name="playing-length" value="7-9-hours" type="radio" required>
+                    <label for="7-9-hours">7 to 9 hours</label>
     
-                <input id="7-9-hours" name="playing-length" value="7-9-hours" type="radio" required>
-                <label for="7-9-hours">7 to 9 hours</label>
-    
-                <input id="more-than-10" name="playing-length" value="more-than-10" type="radio" required>
-                <label for="more-than-10">More than 10 hours</label>
-    
+                    <input id="more-than-10" name="playing-length" value="more-than-10" type="radio" required>
+                    <label for="more-than-10">More than 10 hours</label>
                 <p>Which game do you prefer?</p>
-                <div>
-                    <input type="checkbox" id="dota-checkbox" name="dota-2">
-                    <label for="dota-checkbox">Dota 2</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="coc-checkbox" name="coc">
-                    <label for="coc-checkbox">Clash of Clans</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="neither-checkbox" name="neither">
-                    <label for="neither-checkbox">Neither</label>
-                </div>
-            </fieldset>
-            <input type="submit" class="block-label" value="Join Now">
+                    <div>
+                        <input type="checkbox" id="dota-checkbox" name="dota-2">
+                            <label for="dota-checkbox">Dota 2</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="coc-checkbox" name="coc">
+                        <label for="coc-checkbox">Clash of Clans</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="neither-checkbox" name="neither">
+                        <label for="neither-checkbox">Neither</label>
+                    </div>
+            <input type="submit" class="join-now" value="Join Now">
+            <input type="reset" class="join-now" value="Clear Form">
         </form>
     </section>
-
+    
     <!-- footer -->
     
     <footer>
