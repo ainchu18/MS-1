@@ -76,7 +76,7 @@ p {
 #dota-image {
     height: 870px;
     max-width: 100%;
-    background: url(https://images.firstpost.com/wp-content/uploads/2019/04/dota-2-valve.jpg) no-repeat center center;
+    background: url(/images/dota2-image.jpg) no-repeat center center;
     
     /* Animates zoom effect on loading the page */
 
@@ -108,7 +108,7 @@ p {
 #coc-image {
     height: 870px;
     max-width: 100%;
-    background: url(https://www.imagup.com/wp-content/uploads/2019/12/Clash-of-Clans.jpg) no-repeat center center;
+    background: url(/images/coc-image.jpg) no-repeat center center;
     
     /* Animates zoom effect on loading the page */
 
