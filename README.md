@@ -67,5 +67,86 @@ The site owner decided to use light colors and some dark themed brackground that
 
 ### Fonts Used
 
-Fonts were taken from the fontawesome website with a combination of open sans and 
+Fonts were taken from the fontawesome and google fonts website with a combination of open sans and satisfy. Same, was chosen so that site users can read contents without a fuss as well as to provide eye-pleasing texts to the users.
 
+### Structure
+
+The site is simple 3 pages layout, easily accesible to anyones device.
+* A home page that tells about the community and club.
+![homepage](images/homepage.png)
+![aboutclub](images/aboutclub.png)
+* A games page that tells about the games the community is interested at the moment.
+![gamespage](images/gamespage.png)
+![gamespage](images/gamespage2.png)
+![gamespage](images/gamespage3.png)
+![gamespage](images/gamespage4.png)
+* A membership page that has a simple structure and can be understood by young and old, as well as gamers an non-gamers.
+![membership](images/membershippage1.png)
+![membership](images/membership.png)
+---
+
+## Technologies Used
+
+### Languages
+1. HTML
+2. CSS
+
+### Tools
+1. Github
+2. Gitpod
+3. Font Awesome
+4. Google Fonts
+5. Windows
+---
+
+## Features
+The website contains 3 pages and 10 features.
+
+### Logo and Nav Bars
+* Featured on all pages.
+* The logo, when clicked, will bring you to the home page.
+* Nav Bar that is easy to understand and fully responsive. In addition, a line will appear when you hover on them. Furthurmore, a line will appear under the page you are currently on.
+* User story covered: 1 and 2
+![navbar/logo](images/navbar.png)
+
+### Footer
+* Feature on all pages.
+* Consist of social media links
+* User story covered: 3
+![footer](images/footer.png)
+
+### Membership Form
+* Allows users to easily join the club.
+* Has a submit and reset button.
+* Includes checkbox and icons.
+* The color will change when you hover over the buttons and on the text space of your name and Email.
+* User story covered: 4
+![membership](images/membershipform.png)
+---
+
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors.
+* Home
+![homevalid](images/htmlvalidator.png)
+* Games
+![gamesvalid](images/gamesvalid.png)
+* Be a member
+![membershipvalid](images/membershipvalid.png)
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website. There were no errors found on validation.
+![cssvalidator](images/cssvalidator.png)
+
+### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+* Home
+![wave1](images/wave1.png)
+* Games
+![wave3](images/wave3.png)
+* Be a member
+![wave2](images/wave2.png)
+
+
+### Performance
