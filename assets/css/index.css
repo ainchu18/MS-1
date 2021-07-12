@@ -22,7 +22,7 @@ h1, h2, h3 {
 }
 
 #club {
-    font-size: 300%;
+    font-size: 280%;
     margin-top: 30px;
     color: rgb(0, 217, 255);
 }
@@ -132,8 +132,8 @@ p {
 
 #about-center {
     text-align: justify;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 80px;
+    margin-right: 80px;
     padding-top: 30px;
 }
 
