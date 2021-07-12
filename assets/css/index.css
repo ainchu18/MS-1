@@ -8,7 +8,7 @@
 
 body {
     font-family: satisfy, sans-serif;
-    color: rgb(120, 26, 209);
+    color: rgb(161, 85, 233);
     background-color: black;
 }
 
@@ -22,11 +22,19 @@ h1, h2, h3 {
 }
 
 #club {
-    font-size: 280%;
+    font-size: 300%;
     margin-top: 30px;
     color: rgb(0, 217, 255);
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-size: 110%;
+}
 
 /* nav links */
 
@@ -45,6 +53,7 @@ h1, h2, h3 {
 
 #barbarian a {
     text-decoration: none;
+    color: inherit;
 }
 
 #barbarian a:hover {
@@ -160,6 +169,7 @@ h1, h2, h3 {
 
 .networks a {
     text-decoration: none;
+    color: rgb(161, 85, 233);
 }
 
 /* games page input and styles */
