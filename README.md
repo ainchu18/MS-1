@@ -81,8 +81,8 @@ The site is simple 3 pages layout, easily accesible to anyones device.
 ![gamespage](images/gamespage3.png)
 ![gamespage](images/gamespage4.png)
 * A membership page that has a simple structure and can be understood by young and old, as well as gamers an non-gamers.
-![membership](images/membershippage1.png)
 ![membership](images/membership.png)
+![membership](images/membershipform.png)
 ---
 
 ## Technologies Used
