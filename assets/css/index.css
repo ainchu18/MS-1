@@ -37,9 +37,10 @@ h1, h2, h3 {
 
 #barbarian li {
     list-style-type: none;
-    display: inline;
     list-style-position: unset;
+    display: inline;
     padding-left: 10px;
+    text-align: center;
 }
 
 #barbarian a {
@@ -145,7 +146,7 @@ h1, h2, h3 {
 
 .networks {
     font-size: 110%;
-    margin: 30px 710px 30px;
+    margin: 30px 700px 30px;
     height: 30px;
 }
 
@@ -153,7 +154,8 @@ h1, h2, h3 {
     list-style-type: none;
     display: inline;
     list-style-position: unset;
-    padding-left: 8px;
+    text-align: center;
+    padding-left: 10px;
 }
 
 .networks a {
@@ -264,8 +266,9 @@ fieldset p {
     }
     .networks {
         margin: 0 auto;
-        padding-left: 30px;
         padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
     }
     #form, .join-now {
         margin: 0 auto;
