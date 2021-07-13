@@ -22,6 +22,7 @@ Developer: CCJK
 3. To provide a medium where gamers can join a community that is not judgemental.
 4. To develop the esports industry in Ireland.
 5. In the future, the site owner aims to organize some events and meets ups of gamers in the country.
+6. As the site owner, I want to develop this website to a more robust one.
 ---
 
 ## User Experience
@@ -43,17 +44,15 @@ Developer: CCJK
 * First time users
 1. As a first time user, I want to about the club and its goals.
 2. As a first time user, I want to easily navigate through the pages.
-3. As a first time user, I want to know briefly what are the games the club is interested to.
+3. As a first time user, I want to know briefly what are the games the club is interested in.
 4. As a first time user, I want to join the club as easy as ABC
 
 * Returning Users
-1. As a returning user, I want to know more games other than Dota 2 and Coc.
+1. As a returning user, I will be able to see the games the community is interested in.
 2. As a returning user, I want to know what are the social media groups that I can join in.
 
 * Site Owner
-1. As the site owner, I want to develop this website to a more robust one.
-2. As the site owner, I want other gamers to know about the club/community.
-3. As the site owner, I want to make others aware that Esports will be the future.
+1. As the site owner, I want other gamers to know about the club/community.
 ---
 
 ## Website Design
@@ -157,3 +156,113 @@ Google Chrome Developer Tools-Lighthouse was used to test the performance of the
 ![performancegames](images/performance2.png)
 * Be a Member
 ![performancemembership](images/performance3.png)
+
+### Responsiveness tests done on various devices
+The website was tested on following devices.
+* HP envy
+* One plus 7
+
+In addition, the site was tested using Google Chrome Developer tools device toggling option for all available device options.
+
+### Browser Compatibility
+The website was tested on following browsers:
+* Google Chrome
+* Microsoft Edge
+* Internet Explorer
+---
+
+## Testing User Stories
+
+1. As a first time user, I want to about the club and its goals.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Home Page | Scroll down to see about the club   | Worked    |
+
+2. As a first time user, I want to easily navigate through the pages.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Nav Links | Click onto the 3 optiops in the header   | Worked    |
+
+3. As a first time user, I want to know briefly what are the games the club is interested in.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Games Page | Click onto the nav link games   | Worked    |
+
+4. As a first time user, I want to join the club as easy as ABC
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+| Be a member page  | Click onto the be a member nav link   | Worked    |
+
+* Returning Users
+1. As a returning user, I will be able to see the games the community is interested in.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Games Page | Click onto the nav link games   | Worked    |
+
+2. As a returning user, I want to know what are the social media groups that I can join in.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+| Footer  | Scroll down to the footer area   | Worked    |
+
+* Site Owner
+1. As the site owner, I want other gamers to know about the club/community.
+
+| Feature      | Action    | Result    |
+| :------------- | :----------: | -----------: |
+|  Home Page | Scroll down to see about the club   | Worked    |
+
+## Bugs
+
+### 
+| Bug      | Action taken 
+| :------------- | :----------:
+|  Images doesnt show on other devices | Changed image URL sources
+
+## How the Website was Deployed
+The website was deployed using Github pages following these steps:
+1. Open github website
+2. Navigate to the settings tab
+3. Select PAGES on the left hand side options
+4. Select source branch : main
+5. Click save
+6. After couple of minutes you will see a notification of a successful deployment of the website together with the URL https://ainchu18.github.io/MS-1/
+
+## You can for fork the repository by following these steps:
+
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+## You can clone the repository by following these steps:
+
+1. Go to the GitHub repository
+2. Locate the Code button above the list of files and click it
+3. Select if you prefer to clone using https, SSH, or Github CLI and click the copy button, copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory be
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY) 
+7. Press Enter to create your local clone.
+
+## Credits
+
+### Media
+
+Images used are from urls from the following: 
+* wallpaperaccess.com
+* hdqwalls.com
+
+### Codes
+* Some codes were based on the previous challenges by the code institute and this program. 
+* Tried to do a 404 page using Github docs but it's not working. In time, I will learn how to use this feature in Github.
+
+## Acknowledgements
+### I would like to thank the following who helped me make my first ever website, simple and easy to use:
+* Google
+* Youtube
+* UCD-Code institute
+* JK you know who you are.
