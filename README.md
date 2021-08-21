@@ -1,6 +1,6 @@
 # Gamers for Life
 ---
-Developer: CCJK
+Developer: JKCC
 
 [Go to the website](https://ainchu18.github.io/MS-1/index.html)
 
